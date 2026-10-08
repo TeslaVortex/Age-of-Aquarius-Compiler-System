@@ -27,7 +27,7 @@ impl PurePour for PourEngine {
 
         Ok(CompleteState {
             p: 1,
-            message: "Already complete. Pure pour finished.",
+            message: "Already complete. Pure pour finished. Canon holds.",
         })
     }
 }

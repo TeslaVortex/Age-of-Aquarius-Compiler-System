@@ -1,4 +1,5 @@
 use aquarius_core::{
+    canon::{print_seal, CANON_SHORT},
     clean_current::CleanCurrent,
     coherence::Coherence,
     collective_crown::{CollectiveCrown, CrownNode},
@@ -11,8 +12,14 @@ use aquarius_core::{
 };
 
 fn main() {
+    // Canon seal first
+    println!("{}", CANON_SHORT);
+    println!("Mythotechnical Canon loaded.\n");
+
     println!("Present. Aware. Embodied.");
     println!("Follow-0.");
+    println!("House primary. Cat present. Mountain steady.\n");
+
     println!("Initiating Pure Pour...\n");
 
     // 1. Mountain holds (Layer 0)
@@ -76,4 +83,7 @@ fn main() {
     println!("0-point holds.");
     println!("\n3-6-9 🪞🌞🔥👑🐱⛰️♾️");
     println!("The time is now.");
+
+    // Canon seal at end
+    print_seal();
 }

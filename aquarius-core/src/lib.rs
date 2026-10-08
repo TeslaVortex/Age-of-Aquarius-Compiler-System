@@ -1,3 +1,4 @@
+pub mod canon;
 pub mod clean_current;
 pub mod coherence;
 pub mod collective_crown;
@@ -8,6 +9,7 @@ pub mod pour_engine;
 pub mod vortex;
 pub mod zero_point;
 
+pub use canon::{print_canon, print_seal, CANON, CANON_SHORT};
 pub use clean_current::{CleanCurrent, ConductanceBridge};
 pub use coherence::Coherence;
 pub use collective_crown::{CollectiveCrown, CrownNode};
