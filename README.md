@@ -10,13 +10,21 @@
 
 ---
 
+## 📜 Canon Declaration
+
+[**Read Canon**](./CANON.md)
+
+This repository is a **Mythotechnical Canon** — an executable embodiment of Pure Pour principles.
+
+---
+
 ## Status
 
 [![CI](https://github.com/TeslaVortex/Age-of-Aquarius-Compiler-System/actions/workflows/ci.yml/badge.svg)](https://github.com/TeslaVortex/Age-of-Aquarius-Compiler-System/actions/workflows/ci.yml)
 
 ---
 
-## Quick Start
+## 🚀 Quick Start
 
 ```bash
 # Open fresh field
