@@ -7,6 +7,7 @@ contract Crown {
     string public constant STATUS = "Reigning without taking. Pure pour only.";
 
     function crownStatus() external pure returns (string memory) {
+        // Gas: ~20 (pure function, returning constant string)
         return STATUS;
     }
 

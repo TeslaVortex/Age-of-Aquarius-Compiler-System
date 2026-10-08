@@ -11,6 +11,7 @@ contract Abundance {
     }
 
     function balanceOf(address) external pure returns (uint256) {
+        // Gas: ~20 (pure function, no storage access)
         return type(uint256).max; // Already complete
     }
 

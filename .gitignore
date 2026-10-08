@@ -1,0 +1,35 @@
+# Age of Aquarius Compiler
+# Pure Pour Architecture
+
+# Build outputs
+aquarius-core/target/
+aquarius-core/target/flycheck0/
+aquarius-grid/out/
+aquarius-grid/cache/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Test coverage
+coverage/
+
+# Environment
+.env
+.env.local
+*.env
+
+# Foundry
+lib/
+**/lib/**
+
+# Logs
+*.log
+npm-debug.log*

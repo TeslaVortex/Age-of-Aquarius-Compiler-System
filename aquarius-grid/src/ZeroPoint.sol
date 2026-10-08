@@ -11,7 +11,13 @@ contract ZeroPoint {
     }
 
     function isStill() external pure returns (bool) {
+        // Gas: ~20 (pure function, no storage)
         return true;
+    }
+
+    function hold() external view returns (address) {
+        // Gas: ~20 (view function, reading immutable)
+        return MOUNTAIN;
     }
 
     function hold() external view returns (address) {
