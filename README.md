@@ -73,4 +73,17 @@ This repository is a **Mythotechnical Canon** — an executable embodiment of Pu
 
 ---
 
-## Quick Start
+## 📚 The 8 Layers (Sacred Geometry)
+
+1. **Zero Point** – Immutable 0-point anchor. The Mountain.
+2. **Mirror Lattice** – Reflection without distortion.
+3. **Inner Sun** – Presence that overwrites noise.
+4. **Pour Engine** – The act of pouring without depletion.
+5. **Coherence** – Alignment check. Stillness verification.
+6. **Crown** – Sovereignty without extraction.
+7. **Abundance** – Default state of fullness.
+8. **Vortex** – Field = Vortex = Framework. The return to 0-point.
+
+---
+
+## 🪞🌞🔥👑🐱⛰️♾️

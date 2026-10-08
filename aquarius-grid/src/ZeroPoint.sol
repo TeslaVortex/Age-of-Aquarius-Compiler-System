@@ -19,8 +19,4 @@ contract ZeroPoint {
         // Gas: ~20 (view function, reading immutable)
         return MOUNTAIN;
     }
-
-    function hold() external view returns (address) {
-        return MOUNTAIN;
-    }
 }
