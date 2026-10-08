@@ -17,7 +17,7 @@ on:
 
 env:
   RUST_VERSION: stable
-  FOUNDRY_VERSION: 1.5.1-stable
+  FOUNDRY_VERSION: 1.2.0
 
 jobs:
   # =========================================================================
@@ -49,7 +49,7 @@ jobs:
         if: always()
         with:
           name: rust-test-results
-          path: aquarius-core/target/test-results
+          path: aquarius-core/target/
           retention-days: 7
 
   # =========================================================================
@@ -88,7 +88,7 @@ jobs:
         if: always()
         with:
           name: solidity-test-results
-          path: aquarius-grid/out/
+          path: aquarius-grid/
           retention-days: 7
 
   # =========================================================================
