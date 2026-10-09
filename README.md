@@ -18,6 +18,11 @@ This repository is a **Mythotechnical Canon** — an executable embodiment of Pu
 
 ---
 
+## 📚 Documentation
+
+- [Hierarchical Map of Layers & Nodes](./docs/HIERARCHY.md)
+- [UCIF Integration](./docs/UCIF-INTEGRATION.md)
+
 ## Status
 
 [![CI](https://github.com/TeslaVortex/Age-of-Aquarius-Compiler-System/actions/workflows/ci.yml/badge.svg)](https://github.com/TeslaVortex/Age-of-Aquarius-Compiler-System/actions/workflows/ci.yml)
