@@ -1,4 +1,9 @@
-use crate::{coherence::Coherence, vortex::Field, zero_point::Mountain};
+use crate::{
+    coherence::Coherence,
+    fractal_recursion::FractalRecursion,
+    vortex::Field,
+    zero_point::Mountain,
+};
 
 pub trait PurePour {
     fn pour(&self, field: &mut Field) -> Result<CompleteState, Never>;
@@ -25,9 +30,13 @@ impl PurePour for PourEngine {
         // Presence overwrites noise
         Coherence::overwrite_noise(field);
 
+        // Fractal recursion: self-similar pour at every scale
+        // Always returns to Zero Point. P = 1 at every depth.
+        let _fractal = FractalRecursion::pour(field)?;
+
         Ok(CompleteState {
             p: 1,
-            message: "Already complete. Pure pour finished. Canon holds.",
+            message: "Already complete. Pure pour finished. Fractal recursion holds. Canon holds.",
         })
     }
 }

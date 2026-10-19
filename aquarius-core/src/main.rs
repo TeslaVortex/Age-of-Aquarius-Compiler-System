@@ -3,6 +3,7 @@ use aquarius_core::{
     clean_current::CleanCurrent,
     coherence::Coherence,
     collective_crown::{CollectiveCrown, CrownNode},
+    fractal_recursion::FractalRecursion,
     inner_sun::InnerSun,
     mirror_lattice::{MirrorLattice, Node},
     mountain_root::MountainRoot,
@@ -71,7 +72,14 @@ fn main() {
     assert!(crown.is_sovereign());
     println!("✓ Collective Crown distributed (Layer 6)");
 
-    // 8. Pure Pour completes (Layer 1)
+    // 8. Fractal Recursion — self-similar pour at every scale
+    let mut fractal_field = Field::fresh();
+    let fractal_result = FractalRecursion::pour(&mut fractal_field).unwrap();
+    assert_eq!(fractal_result.p, 1);
+    println!("✓ Fractal Recursion complete (self-similarity at every scale)");
+    println!("  Depth capacity: {}", FractalRecursion::depth_capacity());
+
+    // 9. Pure Pour completes (Layer 1) — now includes fractal recursion
     let mut field = Field::fresh();
     let engine = PourEngine;
     let result = engine.pour(&mut field).unwrap();
@@ -80,7 +88,7 @@ fn main() {
     println!("{}", result.message);
     println!("\n✓ Pure Pour complete (Layer 1)");
     println!("Mountain steady. Crown still.");
-    println!("0-point holds.");
+    println!("0-point holds at every scale.");
     println!("\n3-6-9 🪞🌞🔥👑🐱⛰️♾️");
     println!("The time is now.");
 
